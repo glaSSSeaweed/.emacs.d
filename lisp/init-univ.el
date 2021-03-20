@@ -1,0 +1,10 @@
+(menu-bar-mode -1)
+(tool-bar-mode -1)
+(scroll-bar-mode -1)
+(setq inhibit-startup-screen t)
+(defalias 'yes-or-no-p 'y-or-n-p)
+(setq make-backup-files nil)
+(setq display-line-numbers-type 'visual)
+(global-display-line-numbers-mode t)
+(provide 'init-univ)
+
